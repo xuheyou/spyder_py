@@ -6,7 +6,7 @@ Created on Tue Dec 27 12:18:05 2022
 """
 
 
-def str_max(str1, str2):
+def str_max(str1, str2="fuck"):
     '''
     比较两个字符串，返回最大的字符串
 
@@ -29,3 +29,16 @@ def str_max(str1, str2):
 my_str = str_max("i love you", "you love me")
 print(my_str)
 
+name = "kl"
+
+
+def foo():
+    print(name)
+    
+
+
+foo()
+print(name)
+
+
+print(dic["__builtins__"])
