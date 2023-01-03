@@ -12,13 +12,13 @@ def abc():
         # raise
         print("ret 后")
     except:
-        raise
+        # raise
         print("发生异常！")
         
     else:
         print("执行 else 块中的代码")
     finally:
-        raise
+        # raise
         print("执行 finally 块中的代码")
 
 
